@@ -1,30 +1,89 @@
-*{
-    font-family: TeluguMN;
-    margin: 0;
-    padding: 0;
+*{  padding: 0;
     box-sizing: border-box;
 
 }
     
 body{
     background-color: #000;
+    font-family: TeluguMN;
 }
+
+/* "gallery" delen er inspireret af https://codepen.io/joslex/pen/qbrMxM */
+.container{
+    width: 100%;
+    max-width: 1125px;
+    margin: 0 auto;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.gallery-images img{
+    position: absolute;
+    object-fit: cover;     /*Kode brugt til at tilpasse størrelsen af billedet. https://www.w3schools.com/css/css3_object-fit.asp */
+}
+
+.gallery-images{
+    width: 330px;
+    height: 265px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.text-wrapper{
+    position: relative;
+    width: 330px;
+    height: 265px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    color: #ffff;
+    opacity: 0;
+}
+
+.text-wrapper:hover {
+    transition: all 0.8s ease;
+    background:rgba(0, 0, 0, 0,.6);
+    opacity: 2;
+}
+
+.text{
+    font-size: 14px;
+}
+
+.date{
+    font-style: italic;
+    font-size: 10px;
+}
+
+
+
 
 .main{
     min-height: 100vh;
+    width: 100%;
+
 }
 
 .header{
     width: 100%;
 }
 
-.eflogo{
+.eflogo img{
     width: 5rem;
+}
+
+nav{
+    width: 100%;
 }
 
 .navbar{
     position: absolute;
-    width: 0;
+    width: 100%;
     top: 0;
     text-align: center;
     z-index: 2;
@@ -32,15 +91,6 @@ body{
     padding: 2% 2%;
     justify-content: space-between;
 }
-
-.navbar ul li{
-    display: none;
-}
-
-.navbar ul{
-    padding: 30px;
-}
-
 
 /* https://www.w3schools.com/howto/howto_js_dropdown.asp for dropdown menu mobile */
 * Dropdown icon */
@@ -52,7 +102,7 @@ body{
 top: 1rem;
 width: 4rem;
 right: 1rem;
-padding: 16px;
+padding: 13px;
 font-size: 16px;
 border: none;
 cursor: pointer;
@@ -89,6 +139,26 @@ text-align: center;
 
 /* Show the dropdown menu (use JS to add this class to the .dropdown-content container when the user clicks on the dropdown button) */
 .show {display:block;}
+
+
+
+.footer{
+    background-color: #000;
+    width: 100%;
+    display: flex;
+
+}
+
+.footer a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.copyright-text{
+    text-align: center;
+    color: #fff;
+    text-decoration: none;
+}
 
 
 /* website version */
