@@ -236,10 +236,17 @@ position: absolute;
     color: #fff;
     text-decoration: none;
 }
-
+/* responsive media Q  */
+@media (min-width: 750px){
+    .gallery{
+        display: inline-flex;
+    }
+}
 
 /* website version */ 
 @media (min-width: 1024px) {
+
+    /* navbar website version */
     .dropdown{
         display: none;
     }
@@ -256,7 +263,7 @@ position: absolute;
         font-size: 20px;
         padding: 35px 35px 35px;
     }
-    
+
                             /* overstreget tekst inspireret af W3 https://www.w3schools.com/cssref/pr_text_text-decoration.asp */
     .navbar ul li :hover{  /* inspireret af min egen del fra tidligere gruppearbejde "SoMe & Branding"  */   
       content: '';
@@ -266,6 +273,17 @@ position: absolute;
       margin: auto;
       transition: 0.5s;
     }
+
+    /* gallery website version */
+
+    .gallery{
+        display: inline-flex;
+    }
+
+    /*  */
+
+
+
 
 
 
