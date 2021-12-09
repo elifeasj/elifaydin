@@ -1,4 +1,5 @@
 *{  padding: 0;
+    margin: 8;
     box-sizing: border-box;
 
 }
@@ -6,6 +7,7 @@
 body{
     background-color: #000;
     font-family: TeluguMN;
+    
 }
 
 .main{
@@ -46,12 +48,13 @@ background-color: rgba(24, 23, 23, 0.664);
 width: 100vw;
 height: 100vh;
 z-index: 1;
+font-size: 20px;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
 color: rgb(255, 255, 255);
-padding: 12px 16px;
+padding: 10px 10px 10px;
 text-decoration: none;
 display: block;
 text-align: center;
@@ -159,6 +162,40 @@ nav{
     text-align: center;
 }
 
+.text-box{
+    background-color: #000;
+    
+}
+
+.text-one{
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    padding: 20px;
+}
+
+.text-two{
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+    font-style: italic;
+}
+
+.text-two a{
+    text-decoration: none;
+    color: #cdcdcd;
+}
+
+.projects-images{
+    position: relative;
+    width: 330px;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.projects-images img{
+    object-fit:scale-down;
+}
 
 /* footer - footer er inspireret af SoMe & Branding gruppearbejde, som er kodet af mig selv. */
 .footer{
@@ -166,6 +203,7 @@ nav{
     width: 100%;
     display: flex;
     flex-direction: column;
+    height: 30px;
 
 }
 
@@ -173,6 +211,7 @@ nav{
     text-decoration: none;
     color: #fff;
     font-size: 13px;
+    text-align: center;
 }
 
 .copyright-text{

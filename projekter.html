@@ -4,11 +4,102 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"> 
-    <title>Elif T. Aydin</title>
-    <link rel="icon" href="img/eflogowhite.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">                    <!-- linker til mit css dokument--> 
+    <title>Elif T. Aydin</title>                                                <!-- navngiver mit html / 'fane på browser'--> 
+    <link rel="icon" href="img/eflogowhite.png" type="image/x-icon">            <!-- tilføjer min logo / 'fane på browser'--> 
 </head>
 <body>
-    
+    <header class="header">
+        <nav>                  <!--responsive navbar fra SoMe & Branding gruppearbejde, som er lavet af mig. - også brugt her.-->
+           <a class="eflogo" href="index.html"><img src="img/eflogowhite.png" alt="eflogo"></a>
+           <div class="navbar" id="nav-bar">
+               <!-- <ul>
+                   <li><a href="index.html">Hjem</a></li>
+                   <li><a href="projekter.html">Projekter</a></li>
+                   <li><a href="ommig.html">Om mig</a></li>
+               </ul> -->
+           
+
+           <div class="dropdown">         <!--dropdown menu også fra SoMe & Branding gruppe arbejde, som er inspireret og taget brug af  https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+               <img onclick="myFunction()" class="dropbtn" src="./img/menuicon.png" alt="dropdown">
+               <div id="myDropdown" class="dropdown-content">
+                   <a href="index.html">Hjem</a>
+                   <a href="projekter.html">Projekter</a>
+                   <a href="ommig.html">Om mig</a>
+               </div>
+           </div>
+       </div>
+       </nav>
+   </header>
+
+   <section class="main">
+    <div class="container">      <!--"gallery" delen er inspireret af https://codepen.io/joslex/pen/qbrMxM-->
+        <div class="text-box">     <!--er inspireret af mit eget index.html fra første side hvor er der en kode -> "text-quote"-->
+            <p  class="text-one">En af mine projekter har været Nehmap.
+            Jeg har ikke kun erfaringer inden for fotografi samt også prototyper mm.
+            Jeg har kendskab til <i>Adobe Xd, Photoshop, Premiere Pro og iliusturator.</i></p>
+        </div>
+        
+        <div class="gallery">
+            <a class="projects-images" href="#"><img src="img/Nehmaplogo m. baggrund.png" alt="nehmaplogo1" width="330" height="265">
+        </div>
+
+        <div class="text-box">
+            <p  class="text-one">Det er et logo, som jeg har udarbejdet under vores gruppearbejde på Zealand. Selvom vi ikke er blevet undervist i det endnu, 
+                blev underviserene glad for resultatet. 
+            <p  class="text-one">Logoet for Nehmap viser "et trygt lokation/sted", som også gik ud på noget af
+                det vigtigste del i vores koncept. Navnet besluttede vi sammen, som bestod af alle gruppe medlemmernes forbogstaver.</p>
+            <p class="text-two">Logoet er udarbejdet i Adobe iliusturator og Adobe Photoshop
+            </p>
+        </div>
+
+        <div class="gallery">
+            <a class="projects-images" href="#"><img src="img/Nehmapmockupgif.gif" alt="julestjernevideo" width="330" height="265">
+        </div>        
+
+        <div class="text-box">
+            <p  class="text-one">Denne prototype viser en log-in side af den prototype jeg har lavet på Adobe Xd.
+                Jeg havde ansvar for at lave den og sammen med et godt teamwork nåede vi til finalen i Iværksætterkonkurrencen under 
+                Fonden for Entreprenørskab.</p>
+            <p class="text-two">Prototypen er udarbejdet i Adobe Xd</p>
+        </div>
+
+        <div class="gallery">
+            <a class="projects-images" href="#"><img src="img/mockup1.gif" alt="julestjernevideo" width="330" height="265">  
+        </div>
+
+        <div class="text-box">
+            <p  class="text-one">3-2-1 action! - Optagelse og klip samt redigering i en gruppe arbejde. Jeg var bag kameraet for at
+                se om alt var iorden. Lyden skulle passe ind på vores "HOW TO Make A Chrismast Star" video. Effektlyde og samt green screen "subsribe + like button"
+                tilføjede jeg også.</p>
+            <p class="text-two">Videoen er filmet med Nikon og er redigeret i Adobe Premiere Pro</p>
+            <p class="text-two"><a href="https://www.youtube.com/watch?v=Bnf5u-G3drs">Video: How To Make a Christmas Star</a> <!--hyperlinks w3 https://www.w3schools.com/html/html_links.asp --></p>
+        </div>
+
+        <div class="gallery">
+            <a class="projects-images" href="#"><img src="img/someinstapost.gif" alt="instapost" width="330" height="265">  
+        </div>
+
+        <div class="text-box">
+            <p  class="text-one">Under et tema SoMe & Branding havde vi udarbejdet i gruppen
+                en content plan for hvor og hvornår vi skulle poste og sprede budskabet med vores koncept.
+                Jeg har lavet de her såkaldte "instagram post" og anvendte hashtags 
+                #textmewhenyougethome #tryghed #nattelivet #5goderåd
+            </p>
+            <p class="text-two">Poster er udarbejdet i Adobe Photoshop</p>
+        </div>
+
+    </div> 
+    </section>
+
+
+    <footer class="footer">
+        <a class="icon"><img src="img/heart.png" alt="hearticon" width="25"></a> <!--heart-icon er fra https://www.flaticon.com/free-icon/heart_1077035?term=heart&page=1&position=3&page=1&position=3&related_id=1077035&origin=search -->
+        <p class="copyright-text">made with love</p>
+        <a href="mailto:eliftaydin@outlook.com">contact me!</a>
+        <a href="linkedin.com/in/elif-t-aydin-4980b6136">Linkedin</a>
+    </footer>
+    <script src="./main.js"></script>
+
 </body>
 </html>
