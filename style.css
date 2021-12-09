@@ -197,6 +197,16 @@ nav{
     object-fit:scale-down;
 }
 
+.about-me{
+    background-color: #000;
+    color: #fff;
+    padding: 6% 6%;
+}
+
+.about-me a{
+    color: #cdcdcd;
+}
+
 /* footer - footer er inspireret af SoMe & Branding gruppearbejde, som er kodet af mig selv. */
 .footer{
     background-color: #000;
