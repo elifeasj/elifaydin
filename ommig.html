@@ -1,14 +1,55 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="da">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css"> 
-    <title>Elif T. Aydin</title>
-    <link rel="icon" href="img/eflogowhite.png" type="image/x-icon">
+    <link rel="stylesheet" type="text/css" href="style.css">                    <!-- linker til mit css dokument--> 
+    <title>Elif T. Aydin</title>                                                <!-- navngiver mit html / 'fane på browser'--> 
+    <link rel="icon" href="img/eflogowhite.png" type="image/x-icon">            <!-- tilføjer min logo / 'fane på browser'--> 
 </head>
 <body>
+    <header class="header">
+        <nav>                  <!--responsive navbar fra SoMe & Branding gruppearbejde, som er lavet af mig. - også brugt her.-->
+           <a class="eflogo" href="index.html"><img src="img/eflogowhite.png" alt="eflogo"></a>
+           <div class="navbar" id="nav-bar">
+               <!-- <ul>
+                   <li><a href="index.html">Hjem</a></li>
+                   <li><a href="projekter.html">Projekter</a></li>
+                   <li><a href="ommig.html">Om mig</a></li>
+               </ul> -->
+           
+
+           <div class="dropdown">         <!--dropdown menu også fra SoMe & Branding gruppe arbejde, som er inspireret og taget brug af  https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+               <img onclick="myFunction()" class="dropbtn" src="./img/menuicon.png" alt="dropdown">
+               <div id="myDropdown" class="dropdown-content">
+                   <a href="index.html">Hjem</a>
+                   <a href="projekter.html">Projekter</a>
+                   <a href="ommig.html">Om mig</a>
+               </div>
+           </div>
+       </div>
+       </nav>
+   </header>
+
+   <section class="main">
+
+
+
+
+   </section>
     
+
+
+
+
+    <footer class="footer">
+        <a class="icon"><img src="img/heart.png" alt="hearticon" width="25"></a> <!--heart-icon er fra https://www.flaticon.com/free-icon/heart_1077035?term=heart&page=1&position=3&page=1&position=3&related_id=1077035&origin=search -->
+        <p class="copyright-text">made with love</p>
+        <a href="mailto:eliftaydin@outlook.com">contact me!</a>
+        <a href="linkedin.com/in/elif-t-aydin-4980b6136">Linkedin</a>
+    </footer>
+    <script src="./main.js"></script>
+
 </body>
 </html>
