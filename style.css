@@ -274,13 +274,25 @@ position: absolute;
       transition: 0.5s;
     }
 
-    /* gallery website version */
+    /* index.html - gallery website version */
 
     .gallery{
         display: inline-flex;
     }
 
-    /*  */
+    /* projekter.html - website version */
+    .projects-images{
+        display: flex;
+        flex-wrap: wrap;
+    
+    }
+
+    .projects-images img{
+        align-items: center;
+    }
+
+
+
 
 
 
