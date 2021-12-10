@@ -245,6 +245,11 @@ position: absolute;
     .gallery{
         display: inline-flex;
     }
+
+    .video-project img{
+        margin: 10px 5px 5px;
+    }
+
 }
 
 /* website version */ 
@@ -303,6 +308,17 @@ position: absolute;
         margin: 10px 5px 5px;
     }
 
+    /* ommig.html - website version */
+
+    .about-me-box{
+        display: flex;
+    }
+
+    .gallery .me img{
+    width: 435px;
+    height: 620px;
+    }
+    
 
 
 
