@@ -1,86 +1,107 @@
 <!DOCTYPE html>
 <html lang="da">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" type="text/css" href="style.css">                    <!-- linker til mit css dokument--> 
-    <title>Elif T. Aydin</title>                                                <!-- navngiver mit html / 'fane på browser'--> 
-    <link rel="icon" href="img/eflogowhite.png" type="image/x-icon">            <!-- tilføjer min logo / 'fane på browser'--> 
+    <link rel="stylesheet" type="text/css" href="style.css"> <!-- linker til mit css dokument-->
+    <title>Elif T. Aydin</title> <!-- navngiver mit html / 'fane på browser'-->
+    <link rel="icon" href="img/eflogowhite.png" type="image/x-icon"> <!-- tilføjer min logo / 'fane på browser'-->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-CDKBH1F6Y5"></script>
     <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
+        window.dataLayer = window.dataLayer || [];
 
-    gtag('config', 'G-CDKBH1F6Y5');
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'G-CDKBH1F6Y5');
     </script>
 </head>
 
 <body>
     <header class="header">
-        <nav>                  <!--responsive navbar fra SoMe & Branding gruppearbejde, som er lavet af mig. - også brugt her.-->
-           <a class="eflogo" href="index.html"><img src="img/eflogowhite.png" alt="eflogo"></a>
-           <div class="navbar" id="nav-bar">
-                   <ul class="navbar-content">
-                       <li><a href="index.html">Hjem</a></li>
-                       <li><a href="projekter.html">Projekter</a></li>
-                       <li><a href="ommig.html">Om mig</a></li>
-                   </ul>
-           </div>
+        <nav>
+            <!--responsive navbar fra SoMe & Branding gruppearbejde, som er lavet af mig. - også brugt her.-->
+            <a class="eflogo" href="index.html"><img src="img/eflogowhite.png" alt="eflogo"></a>
+            <div class="navbar" id="nav-bar">
+                <ul class="navbar-content">
+                    <li><a href="index.html">Hjem</a></li>
+                    <li><a href="projekter.html">Projekter</a></li>
+                    <li><a href="ommig.html">Om mig</a></li>
+                </ul>
+            </div>
 
-           <div class="dropdown">         <!--dropdown menu også fra SoMe & Branding gruppe arbejde, som er inspireret og taget brug af  https://www.w3schools.com/howto/howto_js_dropdown.asp-->
-               <img onclick="myFunction()" class="dropbtn" src="./img/menuicon.png" alt="dropdown">
-               <div id="myDropdown" class="dropdown-content">
-                   <a href="index.html">Hjem</a>
-                   <a href="projekter.html">Projekter</a>
-                   <a href="ommig.html">Om mig</a>
-               </div>
-               </div>
-       </nav>
-   </header>
+            <div class="dropdown">
+                <!--dropdown menu også fra SoMe & Branding gruppe arbejde, som er inspireret og taget brug af  https://www.w3schools.com/howto/howto_js_dropdown.asp-->
+                <img onclick="myFunction()" class="dropbtn" src="./img/menuicon.png" alt="dropdown">
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="index.html">Hjem</a>
+                    <a href="projekter.html">Projekter</a>
+                    <a href="ommig.html">Om mig</a>
+                </div>
+            </div>
+        </nav>
+    </header>
 
-   <section class="main">
-    <div class="container">
-        <div class="wrap-box">
-            <div class="about-me">
-                <p  class="about-me-life">Elif, 23 år og studere 1. semester som Multimediedesigner på Zealand Køge. Jeg bor i Storkøbenhavn - Taastrup. 
-                Udenfor undervisningstid har jeg stor interrese for rejse til udlandet, udforske forkellige steder ude i København, researche en masse, forbedre mig mere kreativt.
-                Jeg vil gerne prøve at "udrydde" den tabu der er omkring sort og hvidt fotografi. Jeg personlig er ikke særlig glad for farver inden for fotografi.
-                Jeg synes det er pænere og mere "beroligende" at se på når det er sort og hvidt. Men andre kan synes det er "deprissivt" "uhyggeligt" og "kedeligt". Det er den tabu jeg prøver at "udrydde" ved at fremvise
-                mine billeder på <a href="index.html">forsiden af min portfolio.</a>
-                </p>
-
-                <p class="about-me-photography">Jeg har altid haft interesse for fotografi. Siden 2015 har jeg taget billeder
-                fra min <i>iPhone 5s</i> og det har altid udviklet sig. Jeg købte min første kamera <i>Canon 700D</i> slut 2016 med de penge jeg selv
-                har opsparet - kun fordi jeg virkelig kan lide at arbejde med det. At tage billeder fra min vinkel.
-                Jeg går meget inde for det såkalde "street photography", bygninger samt også objekter. De par billeder jeg har taget er jeg glad for, da det var første gang i år 2017 og
-                jeg fik lov til at tage billeder af parret. Jeg vil helst undgå ansigter - men det er aldrig noget jeg siger nej til direkte.
-                Det er vigtigt for mig at prøve mig frem.</p>
-
-                <p class="about-me-creavitiy">Jeg opdagede at jeg rent faktisk var kreativ, da jeg startede som Multimediedesigner.
-                Så jeg vil ikke sætte mig inde i en boks og kun sige "jeg er kun god til fotografi" - nej! Jeg er åben for alt. 
-                Under <a href="projekter.html">mine projekter</a> ville i ogå kunne se hvilke andre kreative arbejde jeg går indenfor.
-                </p>
-                
-                <p>Jeg vil virkelig gerne samarbejde med andre, der brænder for det de elsker at lave.
-                    Hvis du vil arbejde med mig - eller købe mine billeder så <a href="mailto:eliftaydin@outlook.com">kontakt mig!</a>
+    <section class="main">
+        <div class="container">
+            <div class="wrap-box">
+                <div class="about-me">
+                    <p class="about-me-life">Elif, 23 år og studere 1. semester som Multimediedesigner på Zealand Køge.
+                        Jeg bor i Storkøbenhavn - Taastrup.
+                        Udenfor undervisningstid har jeg stor interrese for rejse til udlandet, udforske forkellige
+                        steder ude i København, researche en masse, forbedre mig mere kreativt.
+                        Jeg vil gerne prøve at "udrydde" den tabu der er omkring sort og hvidt fotografi. Jeg personlig
+                        er ikke særlig glad for farver inden for fotografi.
+                        Jeg synes det er pænere og mere "beroligende" at se på når det er sort og hvidt. Men andre kan
+                        synes det er "deprissivt" "uhyggeligt" og "kedeligt". Det er den tabu jeg prøver at "udrydde"
+                        ved at fremvise
+                        mine billeder på <a href="index.html">forsiden af min portfolio.</a>
                     </p>
-            </div>
 
-            <div class="about-me">
-                <div class="gallery">
-                <a class="me" href="#"><img src="img/me.JPG" alt="me" width="330" height="265">
+                    <p class="about-me-photography">Jeg har altid haft interesse for fotografi. Siden 2015 har jeg taget
+                        billeder
+                        fra min <i>iPhone 5s</i> og det har altid udviklet sig. Jeg købte min første kamera <i>Canon
+                            700D</i> slut 2016 med de penge jeg selv
+                        har opsparet - kun fordi jeg virkelig kan lide at arbejde med det. At tage billeder fra min
+                        vinkel.
+                        Jeg går meget inde for det såkalde "street photography", bygninger samt også objekter. De par
+                        billeder jeg har taget er jeg glad for, da det var første gang i år 2017 og
+                        jeg fik lov til at tage billeder af parret. Jeg vil helst undgå ansigter - men det er aldrig
+                        noget jeg siger nej til direkte.
+                        Det er vigtigt for mig at prøve mig frem.</p>
+
+                    <p class="about-me-creavitiy">Jeg opdagede at jeg rent faktisk var kreativ, da jeg startede som
+                        Multimediedesigner.
+                        Så jeg vil ikke sætte mig inde i en boks og kun sige "jeg er kun god til fotografi" - nej! Jeg
+                        er åben for alt.
+                        Under <a href="projekter.html">mine projekter</a> ville i ogå kunne se hvilke andre kreative
+                        arbejde jeg går indenfor.
+                    </p>
+
+                    <p>Jeg vil virkelig gerne samarbejde med andre, der brænder for det de elsker at lave.
+                        Hvis du vil arbejde med mig - eller købe mine billeder så <a
+                            href="mailto:eliftaydin@outlook.com">kontakt mig!</a>
+                    </p>
+                </div>
+
+                <div class="about-me">
+                    <div class="gallery">
+                        <a class="me" href="#"><img src="img/me.JPG" alt="me" width="330" height="265">
+                    </div>
+                </div>
             </div>
-        </div> 
         </div>
-    </div>
     </section>
 
     <footer class="footer">
-        <a class="icon"><img src="img/heart.png" alt="hearticon" width="25"></a> <!--heart-icon er fra https://www.flaticon.com/free-icon/heart_1077035?term=heart&page=1&position=3&page=1&position=3&related_id=1077035&origin=search -->
+        <a class="icon"><img src="img/heart.png" alt="hearticon" width="25"></a>
+        <!--heart-icon er fra https://www.flaticon.com/free-icon/heart_1077035?term=heart&page=1&position=3&page=1&position=3&related_id=1077035&origin=search -->
         <p class="copyright-text">made with love</p>
         <div class="contact-links">
             <a href="mailto:eliftaydin@outlook.com">contact me!</a>
@@ -89,4 +110,5 @@
     </footer>
     <script src="./main.js"></script>
 </body>
+
 </html>
