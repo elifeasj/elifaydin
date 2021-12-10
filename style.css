@@ -310,21 +310,19 @@ position: absolute;
 
     /* ommig.html - website version */
 
-    .about-me-box{
+    .wrap-box{
         display: flex;
+        flex-wrap: wrap;
+    }
+
+    .about-me{
+        width: 50%;
     }
 
     .gallery .me img{
-    width: 435px;
-    height: 620px;
+        width: 435px;
+        height: 620px;
     }
     
-
-
-
-
-
-
-
 
 }
