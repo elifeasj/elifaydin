@@ -44,7 +44,7 @@ display: inline-block;
 display: none;
 position: absolute;
 left: 0;
-background-color: rgba(24, 23, 23, 0.664);
+background-color: rgba(0, 0, 0, 0.863);
 width: 100vw;
 height: 100vh;
 z-index: 1;
