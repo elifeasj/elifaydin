@@ -169,7 +169,6 @@ position: absolute;
 
 .text-box{
     background-color: #000;
-    
 }
 
 .text-one{
@@ -180,6 +179,8 @@ position: absolute;
 }
 
 .text-two{
+    margin: 0;
+    padding: 10px;
     font-size: 13px;
     color: #fff;
     text-align: center;
@@ -191,16 +192,10 @@ position: absolute;
     color: #cdcdcd;
 }
 
-.projects-images{
-    position: relative;
-    width: 330px;
-    margin: 10px;
-    text-decoration: none;
-}
-
-.projects-images img{
+.projects img{
     object-fit:scale-down;
 }
+
 
 /* "main section" hvor jeg har mine værk inde på om mig siden ommig.html */
 
@@ -300,14 +295,12 @@ position: absolute;
     }
 
     /* projekter.html - website version */
-    .projects-images{
-        display: flex;
-        flex-wrap: wrap;
-    
+    .projects img{
+        object-fit:scale-down;
     }
 
-    .projects-images img{
-        align-items: center;
+    .video-project img{
+        margin: 10px 5px 5px;
     }
 
 
