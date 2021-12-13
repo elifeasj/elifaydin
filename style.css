@@ -10,12 +10,6 @@ body{
     
 }
 
-/* main{
-    min-height: 100vh;
-    width: 100%;
-
-} */
-
 /* navbar samt dropdown i mobil-version */
 /* https://www.w3schools.com/howto/howto_js_dropdown.asp for dropdown menu mobile */
 * Dropdown icon */
@@ -97,7 +91,7 @@ position: absolute;
 .navbar-content{
     display: none; 
 }
-/* "main section" hvor jeg har mine værk inde på forsiden index.html */
+/* "cointainer section" hvor jeg har mine værk inde på forsiden index.html */
 
 /* "gallery" delen er inspireret af https://codepen.io/joslex/pen/qbrMxM */
 .container{
@@ -171,7 +165,7 @@ position: absolute;
 }
 
 
-/* "main section" hvor jeg har mine værk inde på projekter siden projekter.html */
+/* "cointainer section" hvor jeg har mine værk inde på projekter siden projekter.html */
 
 .text-box{
     background-color: #000;
@@ -203,7 +197,7 @@ position: absolute;
 }
 
 
-/* "main section" hvor jeg har mine værk inde på om mig siden ommig.html */
+/* "container section" hvor jeg har mine værk inde på om mig siden ommig.html */
 
 .about-me{
     background-color: #000;
