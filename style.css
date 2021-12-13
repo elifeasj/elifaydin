@@ -173,15 +173,15 @@ position: absolute;
 
 .text-one{
     color: #fff;
-    font-size: 16px;
+    font-size: 17px;
     text-align: center;
     padding: 20px;
 }
 
 .text-two{
-    margin: 0;
-    padding: 10px;
-    font-size: 13px;
+    margin: 25px;
+    padding: 5px;
+    font-size: 15px;
     color: #fff;
     text-align: center;
     font-style: italic;
@@ -193,7 +193,7 @@ position: absolute;
 }
 
 .projects img{
-    object-fit:scale-down;
+    object-fit: contain;
 }
 
 
