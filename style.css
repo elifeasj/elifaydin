@@ -86,7 +86,7 @@ position: absolute;
 .navbar-content{
     display: none; 
 }
-/* "cointainer section" hvor jeg har mine værk inde på forsiden index.html */
+/* "container" hvor jeg har mine værk inde på forsiden index.html */
 
 /* "gallery" delen er inspireret af https://codepen.io/joslex/pen/qbrMxM */
 .container{
@@ -114,11 +114,6 @@ position: absolute;
     text-decoration: none;
 }
 
-.text-quote{
-    width: 330px;
-    margin: 10px;
-}
-
 .quote{
     color: #fff;
     font-size: 16px;
@@ -133,10 +128,12 @@ position: absolute;
 }
 
 
-/* "cointainer section" hvor jeg har mine værk inde på projekter siden projekter.html */
-
-.text-box{
-    background-color: #000;
+/* "cointainer" hvor jeg har mine værk inde på projekter siden projekter.html */
+h1{
+    color: #fff;
+    font-size: 17px;
+    font-weight: lighter;
+    text-align: center;
 }
 
 .text-one{
@@ -165,20 +162,22 @@ position: absolute;
 }
 
 
-/* "container section" hvor jeg har mine værk inde på om mig siden ommig.html */
-
-.about-me{
-    background-color: #000;
+/* "container" hvor jeg har mine værk inde på om mig siden ommig.html */
+h3{
     color: #fff;
-    padding: 6% 6%;
+    text-decoration: none;
+    font-weight: lighter;
 }
 
-.about-me p{
-    line-height: 1.5; /* mellemrum mellem linjerne er inspireret af W3 https://www.w3schools.com/cssref/pr_dim_line-height.asp */
+p{
+    color:#fff;
+    font-size: 18px;
 }
 
-.about-me a{
-    color: #cdcdcd;
+a{
+    text-decoration: none;
+    color: #e7b9b9;
+    font-weight: bold;
 }
 
 .about-me img{
@@ -219,10 +218,6 @@ position: absolute;
 /* responsive media Q  */
 @media (min-width: 420px){
 /* index.html - gallery website @media 420px */
-    .text-quote{
-        display: inline;
-    }
-
     .quote{
         font-size: 21px;
     }
@@ -315,10 +310,6 @@ position: absolute;
     }
 
     /* index.html - gallery website version */ 
-    .text-quote{
-        display: inline;
-    }
-
     .quote{
         font-size: 21px;
     }
@@ -368,22 +359,12 @@ position: absolute;
     }
 
     /* ommig.html - website version */
-
-    .wrap-box{
-        display: flex;
-        flex-wrap: wrap;
-    }
-
     .about-me{
-        width: 50%;
-    }
-    
-    .about-me p{
-        font-size: 17px;
-        line-height: 1.6;
+        display: flex;
+        justify-content: center;
     }
 
-    .gallery .me img{
+    .me img{
         width: 435px;
         height: 620px;
     }
