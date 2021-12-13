@@ -299,15 +299,19 @@ position: absolute;
       margin: auto;
       transition: 0.5s;
     }
-
+    
     /* footer website version */
+
+    .footer p{
+        font-size: 20px;
+    }
 
     .footer .contact-links a {
         display: flex;
         flex-direction: column;
         float: right;
         padding: 10px 10px;
-
+        font-size: 15px;
     }
 
     /* index.html - gallery website version */ 
@@ -372,6 +376,11 @@ position: absolute;
 
     .about-me{
         width: 50%;
+    }
+    
+    .about-me p{
+        font-size: 17px;
+        line-height: 1.6;
     }
 
     .gallery .me img{
