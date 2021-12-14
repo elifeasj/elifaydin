@@ -1,5 +1,6 @@
-*{  padding: 0;
-    margin: 8;
+*{  
+    padding: 0;
+    margin: 0;
     box-sizing: border-box;
 
 }
@@ -15,12 +16,12 @@ body{
 * Dropdown icon */
 
 .dropdown img {
-    width: 6rem;
+    width: 8rem;
 }
 
 .dropbtn {
 top: 1rem;
-width: 4rem;
+width: 5rem;
 right: 1rem;
 padding: 13px;
 font-size: 20px;
@@ -60,10 +61,11 @@ text-align: center;
 
 .header{
     width: 100%;
+    margin-bottom: 25px;
 }
 
 .eflogo img{
-    width: 5rem;
+    width: 6rem;
 }
 
 nav{
@@ -294,6 +296,7 @@ a{
       margin: auto;
       transition: 0.5s;
     }
+
     
     /* footer website version */
 
