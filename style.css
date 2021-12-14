@@ -95,6 +95,7 @@ position: absolute;
     width: 100%;
     max-width: 1125px;
     margin: 0 auto;
+    justify-content: center;
 }
 
 .gallery{
@@ -323,6 +324,7 @@ a{
 
     .gallery{
         display: inline-flex;
+        margin: 0;
     }
 
     .text-wrapper{
