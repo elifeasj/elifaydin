@@ -12,7 +12,7 @@ body{
 }
 
 /* navbar samt dropdown i mobil-version */
-/* https://www.w3schools.com/howto/howto_js_dropdown.asp for dropdown menu mobile */
+/* https://www.w3schools.com/howto/howto_js_dropdown.asp for dropdown menu mobile (kommentar fra 08.12.21) */
 * Dropdown icon */
 
 .dropdown img {
@@ -90,7 +90,7 @@ position: absolute;
 }
 /* "container" hvor jeg har mine værk inde på forsiden index.html */
 
-/* "gallery" delen er inspireret af https://codepen.io/joslex/pen/qbrMxM */
+/* "gallery" delen er inspireret af https://codepen.io/joslex/pen/qbrMxM (kommentar fra 08.12.21) */
 .container{
     width: 100%;
     max-width: 1125px;
@@ -107,7 +107,7 @@ position: absolute;
 
 .gallery-images img{
     position: absolute;
-    object-fit: cover;     /*Kode brugt til at tilpasse størrelsen af billedet. https://www.w3schools.com/css/css3_object-fit.asp */
+    object-fit: cover;   /* Kode brugt til at tilpasse størrelsen af billedet. https://www.w3schools.com/css/css3_object-fit.asp (kommentar fra 08.12.21) */
 }
 
 .gallery-images{
@@ -119,9 +119,10 @@ position: absolute;
 
 .quote{
     color: #fff;
-    font-size: 16px;
+    font-size: 18px;
     font-style: italic;
     text-align: center;
+    line-height: 2.0;
 }
 
 .quote-author{
@@ -139,11 +140,11 @@ h1{
     text-align: center;
 }
 
-.text-one{
+h2{
     color: #fff;
     font-size: 17px;
+    font-weight: lighter;
     text-align: center;
-    padding: 20px;
 }
 
 .text-two{
@@ -183,8 +184,9 @@ a{
     font-weight: bold;
 }
 
-.about-me img{
+.me img{
     object-fit: scale-down;
+    justify-content: center;
 }
 
 /* footer - footer er inspireret af SoMe & Branding gruppearbejde, som er kodet af mig selv. */
@@ -288,7 +290,7 @@ a{
         padding: 35px 35px 35px;
     }
 
-                            /* overstreget tekst inspireret af W3 https://www.w3schools.com/cssref/pr_text_text-decoration.asp */
+                            /* overstreget tekst inspireret af W3 https://www.w3schools.com/cssref/pr_text_text-decoration.asp (kommentar fra 10.12.21) */
     .navbar ul li :hover{  /* inspireret af min egen del fra tidligere gruppearbejde "SoMe & Branding"  */   
       content: '';
       text-decoration: line-through;
@@ -364,11 +366,6 @@ a{
     }
 
     /* ommig.html - website version */
-    .about-me{
-        display: flex;
-        justify-content: center;
-    }
-
     .me img{
         width: 435px;
         height: 620px;
