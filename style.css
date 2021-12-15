@@ -117,6 +117,10 @@ position: absolute;
     text-decoration: none;
 }
 
+.text-wrapper{
+    display: none;
+}
+
 .quote{
     color: #fff;
     font-size: 18px;
